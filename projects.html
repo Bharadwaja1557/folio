@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Projects — ALPHA</title>
+
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="./styles/global.css" />
+</head>
+
+<body>
+  <!-- MENU TOGGLE (mobile/tablet) -->
+  <button class="menu-toggle" aria-label="Open menu">[menu]</button>
+
+  <!-- MENU OVERLAY -->
+  <div class="menu-overlay" aria-hidden="true">
+    <div class="menu-panel">
+      <p class="menu-title">MENU</p>
+
+      <ul>
+        <li><a href="./index.html">[home]</a></li>
+        <li><a href="./about.html">[about]</a></li>
+        <li><a href="./projects.html" class="active">[projects]</a></li>
+        <li><a href="./blogs.html">[blogs]</a></li>
+        <li><a href="./contact.html">[contact]</a></li>
+      </ul>
+
+      <button class="menu-close">[close]</button>
+    </div>
+  </div>
+
+  <!-- PAGE -->
+  <div class="layout">
+    <!-- SIDEBAR -->
+    <nav class="sidebar">
+      <ul>
+        <li><a href="./index.html">[home]</a></li>
+        <li><a href="./about.html">[about]</a></li>
+        <li><a href="./projects.html" class="active">[projects]</a></li>
+        <li><a href="./blogs.html">[blogs]</a></li>
+        <li><a href="./contact.html">[contact]</a></li>
+      </ul>
+    </nav>
+
+    <!-- ASCII DIVIDER -->
+    <div class="divider" aria-hidden="true"></div>
+
+    <!-- CONTENT -->
+    <main class="content">
+      <h1>Projects</h1>
+
+      <p class="muted">
+        selected work · experiments · utilities
+      </p>
+
+      <hr />
+
+      <section>
+        <h2>Textfolio</h2>
+        <p class="muted">HTML · CSS · JS</p>
+
+        <p>
+          A text-first portfolio inspired by terminal interfaces and
+          Advent of Code. No frameworks. No build step.
+        </p>
+
+        <p>
+          <a href="https://github.com/Bharadwaja1557/folio" target="_blank">[source]</a>
+        </p>
+      </section>
+
+      <hr />
+
+      <section>
+        <h2>Pulse (WIP)</h2>
+        <p class="muted">Flutter · Offline-first</p>
+
+        <p>
+          An offline music player focused on ownership, lyrics, and
+          minimal UI.
+        </p>
+      </section>
+
+      <hr />
+
+      <p class="muted">
+        All the projects will be added when i'm free :)
+      </p>
+    </main>
+  </div>
+
+  <!-- SCRIPT -->
+  <script src="./scripts/menu.js"></script>
+</body>
+</html>

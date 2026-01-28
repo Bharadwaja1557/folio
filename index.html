@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ALPHA — Portfolio</title>
+
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="./styles/global.css" />
+</head>
+
+<body>
+  <!-- MENU TOGGLE (mobile/tablet) -->
+  <button class="menu-toggle" aria-label="Open menu">[menu]</button>
+
+  <!-- MENU OVERLAY -->
+  <div class="menu-overlay" aria-hidden="true">
+    <div class="menu-panel">
+      <p class="menu-title">MENU</p>
+
+      <ul>
+        <li><a href="./index.html" class="active">[home]</a></li>
+        <li><a href="./about.html">[about]</a></li>
+        <li><a href="./projects.html">[projects]</a></li>
+        <li><a href="./blogs.html">[blogs]</a></li>
+        <li><a href="./contact.html">[contact]</a></li>
+      </ul>
+
+      <button class="menu-close">[close]</button>
+    </div>
+  </div>
+
+  <!-- PAGE -->
+  <div class="layout">
+    <!-- SIDEBAR -->
+    <nav class="sidebar">
+      <ul>
+        <li><a href="./index.html" class="active">[home]</a></li>
+        <li><a href="./about.html">[about]</a></li>
+        <li><a href="./projects.html">[projects]</a></li>
+        <li><a href="./blogs.html">[blogs]</a></li>
+        <li><a href="./contact.html">[contact]</a></li>
+      </ul>
+    </nav>
+
+    <!-- ASCII DIVIDER -->
+    <div class="divider" aria-hidden="true"></div>
+
+    <!-- CONTENT -->
+    <main class="content">
+      <h1>text-first portfolio</h1>
+
+      <p class="muted">
+        text-based portfolio · minimal · terminal-inspired
+      </p>
+
+      <hr />
+
+      <p>Hi. I’m <span id="mb1557">Mavilla Bharadwaja</span></p>
+
+      <p>
+        This site is intentionally simple.  
+        No animations. No noise.  
+        Just text, structure, and clarity.
+      </p>
+
+      <p>
+        Use the navigation to explore.
+      </p>
+    </main>
+  </div>
+
+  <!-- SCRIPT -->
+  <script src="./scripts/menu.js"></script>
+</body>
+</html>

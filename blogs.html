@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Blogs — ALPHA</title>
+
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="./styles/global.css" />
+</head>
+
+<body>
+  <!-- MENU TOGGLE -->
+  <button class="menu-toggle" aria-label="Open menu">[menu]</button>
+
+  <!-- MENU OVERLAY -->
+  <div class="menu-overlay" aria-hidden="true">
+    <div class="menu-panel">
+      <p class="menu-title">MENU</p>
+
+      <ul>
+        <li><a href="./index.html">[home]</a></li>
+        <li><a href="./about.html">[about]</a></li>
+        <li><a href="./projects.html">[projects]</a></li>
+        <li><a href="./blogs.html" class="active">[blogs]</a></li>
+        <li><a href="./contact.html">[contact]</a></li>
+      </ul>
+
+      <button class="menu-close">[close]</button>
+    </div>
+  </div>
+
+  <!-- PAGE -->
+  <div class="layout">
+    <!-- SIDEBAR -->
+    <nav class="sidebar">
+      <ul>
+        <li><a href="./index.html">[home]</a></li>
+        <li><a href="./about.html">[about]</a></li>
+        <li><a href="./projects.html">[projects]</a></li>
+        <li><a href="./blogs.html" class="active">[blogs]</a></li>
+        <li><a href="./contact.html">[contact]</a></li>
+      </ul>
+    </nav>
+
+    <!-- ASCII DIVIDER -->
+    <div class="divider" aria-hidden="true"></div>
+
+    <!-- CONTENT -->
+    <main class="content">
+      <h1>Blogs</h1>
+
+      <p class="muted">
+        thoughts · notes · long-form writeups
+      </p>
+
+      <hr />
+
+      <article>
+        <h2>Why I Like Text-First Design</h2>
+        <p class="muted">2025 · design</p>
+
+        <p>
+          Modern web design often hides content behind animations
+          and heavy visuals. Text-first design flips that priority.
+        </p>
+
+        <p>
+          <a href="#">[read]</a>
+        </p>
+      </article>
+
+      <hr />
+
+      <article>
+        <h2>Building Without Frameworks</h2>
+        <p class="muted">2025 · web</p>
+
+        <p>
+          Sometimes the simplest stack is just HTML, CSS, and JS.
+          This post documents why I chose that route for this site.
+        </p>
+
+        <p>
+          <a href="#">[read]</a>
+        </p>
+      </article>
+
+      <hr />
+
+      <p class="muted">
+        More posts coming soon.
+      </p>
+    </main>
+  </div>
+
+  <!-- SCRIPT -->
+  <script src="./scripts/menu.js"></script>
+</body>
+</html>

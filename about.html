@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About — ALPHA</title>
+
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="./styles/global.css" />
+</head>
+
+<body>
+  <!-- MENU TOGGLE (mobile/tablet) -->
+  <button class="menu-toggle" aria-label="Open menu">[menu]</button>
+
+  <!-- MENU OVERLAY -->
+  <div class="menu-overlay" aria-hidden="true">
+    <div class="menu-panel">
+      <p class="menu-title">MENU</p>
+
+      <ul>
+        <li><a href="./index.html">[home]</a></li>
+        <li><a href="./about.html" class="active">[about]</a></li>
+        <li><a href="./projects.html">[projects]</a></li>
+        <li><a href="./blogs.html">[blogs]</a></li>
+        <li><a href="./contact.html">[contact]</a></li>
+      </ul>
+
+      <button class="menu-close">[close]</button>
+    </div>
+  </div>
+
+  <!-- PAGE -->
+  <div class="layout">
+    <!-- SIDEBAR -->
+    <nav class="sidebar">
+      <ul>
+        <li><a href="./index.html">[home]</a></li>
+        <li><a href="./about.html" class="active">[about]</a></li>
+        <li><a href="./projects.html">[projects]</a></li>
+        <li><a href="./blogs.html">[blogs]</a></li>
+        <li><a href="./contact.html">[contact]</a></li>
+      </ul>
+    </nav>
+
+    <!-- ASCII DIVIDER -->
+    <div class="divider" aria-hidden="true"></div>
+
+    <!-- CONTENT -->
+    <main class="content">
+      <h1>About</h1>
+
+      <p class="muted">
+        background · intent · constraints
+      </p>
+
+      <hr />
+
+      <p>
+        I'm pursuing MTech @IIT-Kanpur.
+      </p>
+      <p>I focus on
+        <strong>systems, fundamentals, and clarity</strong>.
+      </p>
+
+      <p>
+        I prefer tools and designs that:
+      </p>
+
+      <ul>
+        <li>are understandable without documentation</li>
+        <li>age well over time</li>
+        <li>avoid unnecessary abstraction</li>
+      </ul>
+
+      <p>
+        This portfolio is an experiment in restraint.
+      </p>
+
+      <p class="muted">
+        Text scales. Noise does not.
+      </p>
+    </main>
+  </div>
+
+  <!-- SCRIPT -->
+  <script src="./scripts/menu.js"></script>
+</body>
+</html>
